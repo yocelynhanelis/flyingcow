@@ -1,0 +1,23 @@
+:root {
+    /* Define colors as variables */
+    --blue: #89CFF0;
+    --white: #fafafa; 
+    --black: #353535; 
+    --darkwhite : #ededed;
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+.darkwhite {
+    color: var(--darkwhite);
+}
