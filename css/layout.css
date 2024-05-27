@@ -1,7 +1,13 @@
+.hidden {
+    display: none;
+}
+
 body {
     background-color: var(--black);
     height: 100vh;
     overflow: hide;
+    margin: 0;
+    padding: 0;
 }
 
 .center_box {
@@ -10,35 +16,48 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
-    border-radius: 5rem;
+    border-radius: 3rem;
     height: 50%;
     width: 50%;
-    padding: 5rem;
+    padding: 2rem;
     text-align: center;
-    border: .4rem solid var(--white);
+    border: .3rem solid var(--white);
     background-color: var(--blue);
 }
 
 .header1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-decoration:underline;
 }
 
 .milk {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+    width: 100vw;
+    position: fixed;
     z-index: -1;
     left: 0;
+    margin: 0;
+    bottom: 0;
+    margin-bottom: 0;
 }
 
 .milkwhite {
     background-color: var(--darkwhite);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
 }
 
-table, div, td {
-    border: 1px solid red;
-    margin: 0;
+.sepy {
+    width: 35%;
+    align-items: right;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.susu {
+    width: 100%;
 }
